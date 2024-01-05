@@ -115,7 +115,15 @@ JPA에서 중요한 부분 2가지 : JPA 동작 방식(영속성 컨텍스트) �
 6-1. 객체와 테이블 매핑</br>
 (1) @Entity가 붙은 클래스는 JPA가 관리하는 엔티티라고 부른다.</br></br>
 (2) JPA를 사용해서 테이블과 매핑할 클래스는 @Entity 어노테이션이 필수이다.</br></br>
-(3) JPA 스펙 상, 기본 생성자(public, protected)가 필수적이다.</br></br>v
+(3) JPA 스펙 상, 기본 생성자(public, protected)가 필수적이다.</br></br></br></br></br>
+
+
+
+
+
+
+# Chapter 4. 연관관계 Mapping
+
 
 
 
