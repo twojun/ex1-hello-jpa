@@ -122,7 +122,7 @@ JPA에서 중요한 부분 2가지 : JPA 동작 방식(영속성 컨텍스트) �
 
 
 
-# Chapter 4. 연관관계 Mapping
+# Chapter 4. 연관관계 Mapping : 1:1 1:n n:1 n:n
 
 
 
