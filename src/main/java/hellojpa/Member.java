@@ -8,7 +8,7 @@ public class Member {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id;
+    private String id;  // 속성 추가
 
     @Column(name = "name", nullable = false)
     private String username;
