@@ -339,4 +339,4 @@ Hibernate의 경우 org.hibernate.LazyInitializationException 발생</br></br></
 
 
 # Chapter 8. 값 타입, 임베디드 타입 </br>
-8-1. 값 타입
+8-1. 값 타입 , 임베디드 타입
