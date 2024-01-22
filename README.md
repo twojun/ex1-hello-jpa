@@ -403,3 +403,15 @@ Hibernate의 경우 org.hibernate.LazyInitializationException 발생</br></br></
 8-8. 한 엔티티에서 같은 값 타입을 사용한다면?</br>
 (1) @AttributeOverride 어노테이션을 사용한다.</br></br>
 (2) @AttributeOverrides, @AttributeOverride를 사용해서 컬럼명의 속성을 재정의할 수 있다.</br></br></br>
+
+
+
+8-9. 값 타입과 불변 객체</br>
+(1) 값 타입은 복잡한 객체 세상을 조금이라도 단순화하기 위해 만든 개념이다 따라서 값 타입은 단순하고 안전하게 다룰 수 있어야 한다.</br></br>
+(2) 임베디드 타입과 같은 값 타입을 여러 엔티티에서 공유하게 되면 side effect가 발생되어 위험하다(side effect로 생긴 버그는 대부분 추적하기 어렵다).</br></br></br>
+
+
+
+8-10. 값 타입 복사</br>
+(1) 위에서 확인한 것처럼, 값 타입의 실제 인스턴스를 공유하는 것은 위험하다.</br></br>
+(2) 따라서 값(인스턴스)을 복사해서 사용한다.</br></br>
