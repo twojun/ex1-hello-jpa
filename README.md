@@ -39,11 +39,13 @@
 (3) 준영속(detached) 상태
 - 영속성 컨텍스트에서 저장되었다가 분리된 상태</br></br>
 (4) 삭제(Removed) 상태
-- 삭제된 상태</br></br></br>
+- 삭제된 상태</br></br></br></br>
+
+
 
 
 4. Persistence Context의 이점</br>
-4-1. 1차 캐시</br></br
+4-1. 1차 캐시</br>
 (1) 엔티티를 영속화하거나 처음 조회한다면 영속성 컨텍스트 내부에 1차 캐시로 해당 엔티티에 대한 스냅샷 정보를 저장해둔다. </br></br>
 (2) 1차 캐시에 엔티티가 없다면 직접 데이터베이스를 조회하여 관련 엔티티를 1차 캐시에 저장한다.</br></br></br>
 
@@ -307,7 +309,7 @@ Hibernate의 경우 org.hibernate.LazyInitializationException 발생</br></br></
 
 7-5. 즉시 로딩 </br>
 (1) 즉시로딩은 반대로 연관된 엔티티의 사용여부와 관계없이 특정 엔티티를 조회할 때 연관된 엔티티도 모두 함께 가져오는 전략 </br> </br>
-(2) fetch = FetchType.EAGER </br> </br>
+(2) fetch = FetchType.EAGER </br> </br></br></br>
 
 
 
